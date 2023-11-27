@@ -3,7 +3,7 @@ on: push
 
 jobs:
   Pipeline-Job:
-    # Configure Environment
+    # Configure Environment for Snyk Code scanning
     name: 'Snyk Code Scan'
     runs-on: ubuntu-latest
     env: 
